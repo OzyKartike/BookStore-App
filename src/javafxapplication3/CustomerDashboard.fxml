@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="504.0" prefWidth="427.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.CustomerDashboardController">
+   <children>
+      <TableView fx:id="table" layoutY="14.0" prefHeight="312.0" prefWidth="427.0" AnchorPane.bottomAnchor="192.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="bookName" prefWidth="346.0" text="Customer name" />
+          <TableColumn fx:id="bookPrice" minWidth="0.0" prefWidth="78.0" text="Points" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txtfieldName" layoutX="14.0" layoutY="317.0" promptText="Customer Name" />
+      <TextField fx:id="txtFieldPrice" layoutX="174.0" layoutY="317.0" promptText="Customer Price" />
+      <Button fx:id="buttonAdd" layoutX="336.0" layoutY="317.0" mnemonicParsing="false" onAction="#errorMessage" text="Add" />
+      <Label fx:id="errorMessage" layoutX="174.0" layoutY="349.0" prefHeight="17.0" prefWidth="149.0" />
+      <Button fx:id="deleteBTN" layoutX="93.0" layoutY="388.0" mnemonicParsing="false" onAction="#deleteCMD" prefHeight="25.0" prefWidth="219.0" text="Delete" />
+      <Button fx:id="backBTN" layoutX="93.0" layoutY="425.0" mnemonicParsing="false" onAction="#backCMD" prefHeight="25.0" prefWidth="219.0" text="Back" />
+   </children>
+</AnchorPane>

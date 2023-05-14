@@ -1,0 +1,19 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 31, 2023, 9:44:30 p.m.
+    Author     : kartc
+*/
+/*#button
+{
+    -fx-font-size: 18px;
+    -fx-background-color: green;
+    -fx-text-fill: white;
+}
+*/
+#errorMessage
+{
+    -fx-text-fill: red;
+}
