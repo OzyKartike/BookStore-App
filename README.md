@@ -14,3 +14,9 @@ gives different options to access from owner interface. You can logout which tak
 ![image](https://github.com/OzyKartike/BookStore-App/assets/64118528/b429b73a-fcb3-48e6-a530-47ec6bfbed14)
 
 Easilly delete add and update the table on books, back takes you to the previous options of the owner
+
+
+
+THINGS I NEED TO IMPLEMENT
+- Owner side CustomerScreen able to add customers
+- Customer sider Buy Screen allowing the purchase of books
